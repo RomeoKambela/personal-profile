@@ -24,6 +24,7 @@ header h1 {
 	font-size: 50px;
 	padding: 20px;
 	text-align: left;
+
 }
 header img {
 	width: 70px;
@@ -70,14 +71,13 @@ ul {
 
 
 nav {
-	margin-top: 20px;
 	display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     background-color: #ACC8A2;
     animation: gradientanimation 10s ease-in-out infinite;
-	border-bottom-left-radius: 25px;
+    border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
 
@@ -209,9 +209,8 @@ footer {
 
 .carousel-indicators button.active .img-active {
     display: block;
-
 }
+
 .carouseltop {
     margin-top: 6%;
 }
-
