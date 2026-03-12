@@ -76,6 +76,8 @@ nav {
     padding: 10px 20px;
     background-color: #ACC8A2;
     animation: gradientanimation 10s ease-in-out infinite;
+	border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 @keyframes gradientanimation {
@@ -92,7 +94,7 @@ nav {
 		background-color: #ACC8A2;
 	}
 	100% {
-		background-color: #a7a184;
+		background-color: #ffffff;
 	}
 }
 
@@ -206,4 +208,5 @@ footer {
 
 .carousel-indicators button.active .img-active {
     display: block;
+
 }
